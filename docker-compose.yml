@@ -1,4 +1,4 @@
-version: "3.7"
+version: "3.8"
 
 services:
   database:
@@ -16,7 +16,7 @@ services:
     networks:
       - clarusnet
   app-server:
-    image: "jamesclarusway/phonebook"
+    image: phonebook_image
     deploy:
       mode: global
       update_config:
